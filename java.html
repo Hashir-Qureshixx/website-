@@ -1,0 +1,107 @@
+<html>
+<head><title> java </title>
+<style>
+#maindiv
+{
+width:600px;
+height:600px;
+border:0px solid black;
+margin-left:auto; 
+margin-right:auto;
+position: relative;
+background-color: rgb(29, 95, 49);
+}
+#div1
+{
+border:0px solid black;
+width:599px;
+height:80px;    
+position: absolute;
+text-align:center;
+Line-height:80px;
+font-size:40px;
+background: linear-gradient(rgb(206, 206, 20),rgba(0, 0, 0, 0.74));
+
+}
+#tablediv
+{
+border:1px solid black;
+width:500px;
+height:400px;
+position:absolute;
+margin-left:50px;
+margin-right:50px;
+margin-top:145px;
+
+}
+td
+{
+background-color: aliceblue; 
+}
+table
+{
+border:1px;    
+}
+td
+{
+
+color:black;
+background-color:whitesmoke;   
+}
+</style>
+<script>
+    total=300;
+    eng=30;
+    coding=235;   
+    obt=eval(eng)+eval(coding);
+    per=obt*100/total;
+    if(per>=50)
+    {
+    Result="pass";    
+    }   
+    else
+    {
+    Result="Fail"    
+    } 
+    if(per>=90)
+    {
+     Grade="A+";   
+    }
+    else
+    {
+    Grade="B";    
+    }
+
+    </script>
+
+
+
+
+</head>
+<body>    
+
+
+
+<div id="maindiv">
+
+    <div id="div1"> Student Form </div> 
+<div id="tablediv">  
+
+
+
+
+    
+
+<script>
+
+document.write('<table border="1"width="500"height="30"backgroundcolor="black"><form><tr><td width="170">Student name</td><td width="300"><input type="text"size="42"placeholder="Name"</td></tr><tr><td>Subjects</td><td><input type="text"placeholder="Subject"size="42"></td></tr><tr><td>Total Marks</td><td>'+total+'</td></tr><tr><td>Obtain Marks</td><td>'+obt+'</td></tr><tr><td>Percentage</td><td>'+per+'</td></tr><tr><td>Pass/Fail</td><td>'+Result+'</td></tr><tr><td>Grade</td><td>'+Grade+'</td></tr><tr></tr><td colspan="2"align="right"><input type="Submit"Value="Submit"><input type="Reset"Value="Reset"></td></form></table>')   
+ </script>
+   
+  </div>
+
+
+   </div> 
+<a href="java practice.html"style=text-decoration:none;><h1>video</h1></a>
+
+</body>
+</html>
